@@ -29,6 +29,17 @@ provider:
 
 
 
+
+# plugins del serverless
+plugins:
+  - serverless-offline
+
+
+
+custom:
+  serverless-offline:
+    httpPort: 4200
+
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
