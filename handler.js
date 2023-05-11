@@ -45,34 +45,3 @@ module.exports.createUser = async (event) => {
     ),
   };
 };
-
-//   const nodemailer = require("nodemailer");
-//   let response = {
-//     statusCode: 200,
-//     body: "",
-//   };
-
-//   const transporter = nodemailer.createTransport({
-//     service: "gmail",
-//     auth: {
-//       user: "",
-//       pass: "",
-//     },
-//   });
-
-//   const mailOptions = {
-//     from: "",
-//     to: "",
-//     subject: "Sending Email using Node.js",
-//     text: "That was easy!",
-//   };
-
-//   try {
-//     const result = await transporter.sendMail(mailOptions);
-//     response.body = JSON.stringify(result);
-//   } catch (error) {
-//     response.body = JSON.stringify(error);
-//   }
-
-//   return response;
-// };
